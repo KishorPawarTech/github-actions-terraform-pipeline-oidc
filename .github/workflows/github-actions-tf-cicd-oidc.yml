@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Configure AWS Credentils
-        uses: aws-actions/confgiure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::381492194666:role/OIDC-role
           aws-region: us-east-1
